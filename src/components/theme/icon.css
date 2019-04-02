@@ -1,0 +1,13 @@
+/* 清除图标*/
+.close-icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  outline: 15px solid #000;
+  outline-offset: -33px;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
