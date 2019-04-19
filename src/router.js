@@ -15,7 +15,19 @@ export default new Router({
     {
       path: '/loading',
       name: 'loading',
-      component: () => import(/* webpackChunkName: "about" */ './views/loading.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/loading.vue'),
     },
+    {
+      path: '/container',
+      component: () => import(/* webpackChunkName: "about" */ './views/container.vue'),
+    },
+    {
+      path: '/index',
+      component: () => import(/* webpackChunkName: "about" */ './views/index.vue'),
+    },
+    {
+      path: '/swiper',
+      component: () => import(/* webpackChunkName: "about" */ './views/swiper.vue'),
+    }
   ]
 })

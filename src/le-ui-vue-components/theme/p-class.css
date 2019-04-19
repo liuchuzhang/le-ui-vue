@@ -7,3 +7,10 @@
   left: 0;
   background: rgba(0, 0, 0, .4);
 }
+
+.le-is-vertical {
+  flex-direction: column
+}
+.le-is-horizontal {
+  flex-direction: row;
+}

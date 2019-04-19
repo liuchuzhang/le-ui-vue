@@ -1,0 +1,35 @@
+.DS_Store
+node_modules
+/dist
+/public
+/src/assets
+/src/views
+/src/App.vue
+/src/assets
+/src/views
+/src/main.js
+/src/router.js
+/vue.config.js
+/babel.config.js
+
+
+# local env files
+.env.local
+.env.*.local
+.vue.config.js
+.babel.config.js
+.le-ui.zip
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

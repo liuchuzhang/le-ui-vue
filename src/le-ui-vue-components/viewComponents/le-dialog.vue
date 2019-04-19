@@ -51,8 +51,8 @@ export default {
 }
 </script>
 <style scoped>
-  @import url('./theme/p-class.css');
-  @import url('./theme/icon.css');
+  @import url('../theme/p-class.css');
+  @import url('../theme/icon.css');
 </style>
 
 <style scoped>

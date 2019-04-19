@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import leUi from "./components/index"
+import leUi from "./le-ui-vue-components/index"
 
 Vue.config.productionTip = false
 

@@ -4,6 +4,9 @@
    <le-button type='primary' @click="bb" style="margin-right:20px" class="nn">我是按钮</le-button>
    <le-button type='success' size='small' style="margin-right:20px">成功按钮</le-button>
    <le-button type="danger" size='large'>危险按钮</le-button>
+   <le-button @click="$router.push('./container')">跳转到布局</le-button>
+   <le-button @click="$router.push('./swiper')">跳转到swiper</le-button>
+    <le-button @click="$router.push('./index')">跳转到index</le-button>
      <le-dialog :visibilty.sync="visibilty" :onMask='false' title="就是" titleColor="red" >
       <le-button @click="aa">点击</le-button >
     </le-dialog>
